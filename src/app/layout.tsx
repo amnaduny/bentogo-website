@@ -6,6 +6,9 @@ import Navbar from "./components/Navbar";
 export const metadata: Metadata = {
   title: "Bento GO !",
   description: "Bento Go - Webpage",
+  icons: {
+    icon: "/assets/bento-go.ico",
+  },
 };
 
 export default function RootLayout({
